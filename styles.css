@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e2b960;
+    color: #c02424;
+    padding: 2em;
+    background-image: url(game\ universe.jpeg);
+    background-size:contain ;
+      
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #e01d1d;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+fieldset{
+    background-color: rgb(160, 163, 181);
+}
+
+fieldset1{
+    background-color: #598fd6;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.home-section, .about-section, .categories-section, .services-section {
+    border: 2px solid #333;
+    padding: 15px;
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    background-image: url(footer.jpeg   ) ;
+    background-size:contain ;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-options, .footer-contact {
+    flex: 1;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons .icon {
+    margin-right: 10px;
+}
+
+.footer-options h2, .footer-contact h2 {
+    color: #fff;
+}
+
+.footer-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-options ul li {
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #722026ed;
+    color: #fefb49;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.contact-form {
+    background-color: #f9f6f6;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #333;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fdfafa;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"].button:hover {
+    background-color: #555;
+}
